@@ -3,6 +3,7 @@ import TopBar from "./TopBar";
 import ContentRowTop from "./ContentRowTop";
 import Footer from "./Footer";
 import MovieList from "./MovieList";
+import { Route, Switch } from "react-router-dom";
 function ContentWrapper() {
     return (
         <div id="content-wrapper" className="d-flex flex-column">
@@ -10,7 +11,7 @@ function ContentWrapper() {
             <div id="content">
                 <TopBar />
                 <ContentRowTop />
-                <MovieList />
+
                 <Footer />
             </div>
         </div>

@@ -6,12 +6,10 @@ import "./assets/css/app.css";
 
 function App() {
     return (
-        <React.Fragment>
-            <div id="wrapper">
-                <SideBar />
-                <ContentWrapper />
-            </div>
-        </React.Fragment>
+        <div id="wrapper">
+            <SideBar />
+            <ContentWrapper />
+        </div>
     );
 }
 
